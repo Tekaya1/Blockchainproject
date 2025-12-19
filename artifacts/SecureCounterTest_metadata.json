@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.8.33+commit.64118f21"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "beforeEach",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testIncrementTwice",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testIncrementWithValidAmount",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testIncrementWithZeroShouldRevert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "testInitialValueIsZero",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"testIncrementTwice()": {
+					"notice": "#sender: account-0"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/SecureCounter_test.sol": "SecureCounterTest"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SecureCounter.sol": {
+			"keccak256": "0xe4cd6a2ad483adbfe8f2d0000c2708ec1ae676a31e332fe9f3d7af0784307bc1",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f702dded0ba5b5af194ba512e20df38952cd61dd876e88ccfb2faf8233d54e60",
+				"dweb:/ipfs/QmRCTJnKvfxAhWyqo9kJcB2VNRARuC8SXH1UKP8EBUevVY"
+			]
+		},
+		"remix_tests.sol": {
+			"keccak256": "0xe2783cdc204cba8c72494119339f1d90f9022b15d6c718c668b7f097d8e29787",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://bb6a22e64c7f16bcaab63b1c1a1b269d5be8a6d37bdd9dec1718477ab916b18e",
+				"dweb:/ipfs/QmdkW1tT5iadBvaHMCoskhDGZKnfdg8o1D9CcoQYtdJet7"
+			]
+		},
+		"tests/SecureCounter_test.sol": {
+			"keccak256": "0x2f906bac7b4adea3ce726304f43499d07078bd2c112a89ebd99dff89a5acaaec",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://bf50be4ca6bd105e237fead6806b7b1e9f2ed2b7d4f985459403900b154a9241",
+				"dweb:/ipfs/QmVUpqWmQ5J2oATBAKEod2dGFiqbA4JmLw4PBmshSpt1mr"
+			]
+		}
+	},
+	"version": 1
+}
