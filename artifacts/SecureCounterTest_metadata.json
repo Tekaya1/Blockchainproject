@@ -72,7 +72,7 @@
 		"remappings": []
 	},
 	"sources": {
-		"SecureCounter.sol": {
+		"contracts/SecureCounter.sol": {
 			"keccak256": "0xe4cd6a2ad483adbfe8f2d0000c2708ec1ae676a31e332fe9f3d7af0784307bc1",
 			"license": "MIT",
 			"urls": [
@@ -89,11 +89,11 @@
 			]
 		},
 		"tests/SecureCounter_test.sol": {
-			"keccak256": "0x2f906bac7b4adea3ce726304f43499d07078bd2c112a89ebd99dff89a5acaaec",
+			"keccak256": "0xf3013f1d25c3702d7cc2f1fdbeec70714360d2625cd03f5416426bbdd8dd9a1a",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bf50be4ca6bd105e237fead6806b7b1e9f2ed2b7d4f985459403900b154a9241",
-				"dweb:/ipfs/QmVUpqWmQ5J2oATBAKEod2dGFiqbA4JmLw4PBmshSpt1mr"
+				"bzz-raw://74c8f3b020376b67cbfc0606fa7ecd4d2775406d7468d587b371251da67a3ba7",
+				"dweb:/ipfs/QmeTBixTieYRS3PJ8puGdsc4dMKCXHXB5hLxmjLN1e7iHH"
 			]
 		}
 	},

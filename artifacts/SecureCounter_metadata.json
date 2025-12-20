@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"anonymous": false,
 				"inputs": [
 					{
@@ -27,12 +32,50 @@
 						"type": "uint256"
 					}
 				],
-				"name": "Incremented",
+				"name": "CounterDecremented",
 				"type": "event"
 			},
 			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "oldValue",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "newValue",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "CounterIncremented",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
 				"inputs": [],
-				"name": "current",
+				"name": "getCounter",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -55,6 +98,19 @@
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -70,7 +126,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"SecureCounter.sol": "SecureCounter"
+			"contracts/SecureCounter.sol": "SecureCounter"
 		},
 		"evmVersion": "osaka",
 		"libraries": {},
@@ -84,12 +140,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"SecureCounter.sol": {
-			"keccak256": "0xe4cd6a2ad483adbfe8f2d0000c2708ec1ae676a31e332fe9f3d7af0784307bc1",
+		"contracts/SecureCounter.sol": {
+			"keccak256": "0x772a1bb6f11fb5a205741839974d229306cf2da31963c04e2d9a26bb8d0f56c0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f702dded0ba5b5af194ba512e20df38952cd61dd876e88ccfb2faf8233d54e60",
-				"dweb:/ipfs/QmRCTJnKvfxAhWyqo9kJcB2VNRARuC8SXH1UKP8EBUevVY"
+				"bzz-raw://d8b6b9158b6b8e1062045d4073b35148c03e3f6c0c58299c8ca13cd943b8d50a",
+				"dweb:/ipfs/QmdtNTKYU23tCKbRC6CTGoGNBtakpFPMKzRoZpLsprE9n9"
 			]
 		}
 	},
